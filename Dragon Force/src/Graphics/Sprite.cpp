@@ -24,6 +24,8 @@ void Sprite::Init(const Info& i) {
         info.sheet_size = Round(s_size.x, s_size.y);
         if (info.frame_size == Vec2i{ 0 }) info.frame_size = info.sheet_size;
         if (info.spr_size == Vec2i{ 0 }) info.spr_size = info.frame_size;
+
+        SetSheetRow(info.sheet_row, info.num_frames);
     }
 }
 

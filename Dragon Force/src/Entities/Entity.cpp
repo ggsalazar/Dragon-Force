@@ -10,7 +10,7 @@ Entity::Entity(const Sprite::Info s_i)
     sprite.Init(s_i);
     Entity::MoveTo(Vec2f(pos));
 
-    SEC = game->GetFPS();
+    SEC = 60;
 }
 
 void Entity::Draw() {

@@ -11,17 +11,24 @@ using namespace chrono;
 using hr_clock = high_resolution_clock;
 using durationf = duration<float>;
 
+class Dragon;
+class Projectile;
+class Wyvern;
+
 class Game {
 private:
     //Variables
-    uint fps = 0;
-    uint game_frames = 0;
+    uchar fps = 0, game_frames = 0;
     float target_frame_time;
     hr_clock::time_point last_time;
     durationf delta;
-    float accumulated_time = 0.f;
-    float music_volume = 100;
-    float sfx_volume = 100;
+    float accumulated_time = 0.f,
+        music_volume = 100,
+        sfx_volume = 100;
+
+
+    uint wyvern_timer_max = 180,
+        wyvern_timer = 180;
 
 public:
     //Game UTH details
@@ -34,10 +41,14 @@ public:
     bool paused = false;
     uchar curr_ui_layer = 0;
 
+    //Game details
+    Dragon* dragon = nullptr;
+    vector<Projectile*> projs;
+    Sprite::Info wyvern_info = {};
+    vector<Wyvern*> wyverns;
+
     //Camera
     Camera camera;
-    float cam_move_spd = 5.5f; //1 - 10 by .5
-    bool edge_panning = false;
 
     //Music & SFX - waiting for SDL_mixer 3.0
     //DJ dj;
@@ -48,8 +59,12 @@ public:
     Text debug_txt;
     Sprite cursor;
 
-    Game(const char* title, const uint init_fps);
+    Game(const char* title, const uchar init_fps);
     ~Game() {
+        delete dragon;
+        for (auto& p : projs) delete p;
+        projs.clear();
+
         TTF_Quit();
         //Mix_CloseAudio();
         //Mix_Quit();
@@ -63,7 +78,7 @@ public:
     void Render();
 
     //Frame stuff
-    inline uint GetFPS() const { return fps; }
+    inline uchar GetFPS() const { return fps; }
     inline int GetGameFrames() const { return game_frames; }
 
     //Settings

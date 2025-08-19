@@ -3,8 +3,11 @@
 #include "Game.h"
 #include "../Core/Input.h"
 #include "../Core/Math.h"
+#include "../Entities/Dragon.h"
+#include "../Entities/Projectile.h"
+#include "../Entities/Wyvern.h"
 
-Game::Game(const char* title, const uint init_fps)
+Game::Game(const char* title, const uchar init_fps)
     : fps(init_fps), resolution(min_res * 2), camera({ 0 }, Vec2i(min_res)),
     window("Game", resolution), renderer(window.GetWin(), &camera) {
 
@@ -36,13 +39,27 @@ Game::Game(const char* title, const uint init_fps)
         default_fonts.insert({ i, Font("m5x7", i) });
     debug_txt.Init(&default_fonts[36]);
 
-    //Initialize the DJ's tracks
-    //Play the title track - TO-DO
+    //Initialize the player dragon
+    Sprite::Info dragon_info = {};
+    dragon_info.sheet = "Dragon/Dragon Red";
+    dragon_info.origin = { .5f };
+    dragon_info.frame_size = { 16 };
+    dragon_info.pos = Round(min_res * .5f);
+    dragon_info.scale = 2;
+    dragon_info.anim_fps = 4;
+    dragon_info.num_frames = 2;
 
-    //Init scene, which sets the Game* in all the classes that need it
-    //gm.Init(this);
-    //Open the title scene
-    //gm.ChangeScene();
+    Dragon::SetGame(this);
+    dragon = new Dragon(dragon_info);
+    
+
+    //Wyvern info
+    wyvern_info.origin = { .5f };
+    wyvern_info.frame_size = { 16 };
+    wyvern_info.scale = 2;
+    wyvern_info.anim_fps = 2;
+    wyvern_info.num_frames = 2;
+
 
     //Initialize cursor
     //Cursor sprite info
@@ -88,9 +105,7 @@ void Game::Run() {
 
 //Process input
 void Game::ProcessInput() {
-
-    //Update cursor position
-    cursor.MoveTo(Input::MousePos());
+    dragon->GetInput();
 }
 
 //Update the game world
@@ -98,8 +113,44 @@ void Game::Update() {
     //Reset our input variables
     Input::Update();
 
-    //Update the current scene
+    dragon->Update();
+    
+    //Spawn + update wyverns
+    if (--wyvern_timer <= 0) {
+        //Reset the timer
+        wyvern_timer = wyvern_timer_max;
 
+        //Select a wyvern color - just green for now
+        wyvern_info.sheet = "Wyverns/Green Wyvern";
+        
+        //Randomize wyvern position - TO-DO
+        wyvern_info.pos = Round(min_res.x * .5f, -16);
+
+        //Spawn a wyvern
+        wyverns.push_back(new Wyvern(wyvern_info));
+    }
+
+
+    //Update the wyverns
+    for (uchar i = 0; i < wyverns.size(); ++i)
+        wyverns[i]->Update();
+
+    //Remove wyverns from the vector - TO-DO
+
+
+    //Update the projectiles 
+    for (uchar i = 0; i < projs.size(); ++i) {
+        projs[i]->Update();
+
+        //Collisions with wyverns/dragon - TO-DO
+    }
+
+    //Remove projectiles from the vector
+    for (auto it = projs.begin(); it != projs.end();) {
+        Projectile* p = *it;
+        if (p->GetPos().y < 0) it = projs.erase(it);
+        else ++it;
+    }
 }
 
 //Draw the game world
@@ -107,8 +158,11 @@ void Game::Render() {
 
     renderer.BeginFrame(); //This also clears the frame
 
+    dragon->Draw();
 
-    renderer.DrawSprite(cursor);
+    for (uchar i = 0; i < wyverns.size(); ++i) wyverns[i]->Draw();
+
+    for (uchar i = 0; i < projs.size(); ++i) projs[i]->Draw();
 
     renderer.EndFrame();
 }
