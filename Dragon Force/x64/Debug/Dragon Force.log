@@ -1,0 +1,649 @@
+﻿  Entity.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Entities\Entity.h(4,10): error C1083: Cannot open include file: '../Game/Scene.h': No such file or directory
+  (compiling source file 'src/Entities/Entity.cpp')
+  
+  Button.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Entities\Entity.h(4,10): error C1083: Cannot open include file: '../Game/Scene.h': No such file or directory
+  (compiling source file 'src/Entities/UI/Button.cpp')
+  
+  Picker.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Entities\Entity.h(4,10): error C1083: Cannot open include file: '../Game/Scene.h': No such file or directory
+  (compiling source file 'src/Entities/UI/Picker.cpp')
+  
+  Slider.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Entities\Entity.h(4,10): error C1083: Cannot open include file: '../Game/Scene.h': No such file or directory
+  (compiling source file 'src/Entities/UI/Slider.cpp')
+  
+  Toggle.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Entities\Entity.h(4,10): error C1083: Cannot open include file: '../Game/Scene.h': No such file or directory
+  (compiling source file 'src/Entities/UI/Toggle.cpp')
+  
+  UI.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Entities\Entity.h(4,10): error C1083: Cannot open include file: '../Game/Scene.h': No such file or directory
+  (compiling source file 'src/Entities/UI/UI.cpp')
+  
+  Game.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Game.cpp')
+  
+  Menu.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(11,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(11,25): error C2146: syntax error: missing ')' before identifier 'i_name'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(11,25): error C3646: 'i_name': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(11,31): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(37,21): error C3646: 'GetName': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(37,29): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(37,37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(39,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(39,32): error C2146: syntax error: missing ')' before identifier 's_m'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(39,32): error C3646: 's_m': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(39,35): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(42,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(42,36): error C2146: syntax error: missing ')' before identifier 'ui'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(42,36): error C3646: 'ui': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(42,38): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(43,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(43,35): error C2146: syntax error: missing ')' before identifier 'ui'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(43,35): error C3646: 'ui': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(43,37): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(44,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(44,39): error C2146: syntax error: missing ')' before identifier 'ui'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(44,39): error C3646: 'ui': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(44,41): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(45,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(45,39): error C2146: syntax error: missing ')' before identifier 'ui'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(45,39): error C3646: 'ui': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(45,49): error C2062: type 'bool' unexpected
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(46,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(46,39): error C2146: syntax error: missing ')' before identifier 'ui'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(46,39): error C3646: 'ui': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(46,56): error C3646: 'new_status': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(46,66): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(46,49): error C2182: 'string': this use of 'void' is not valid
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(46,43): warning C4228: nonstandard extension used: qualifiers after comma in declarator list are ignored
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(47,5): error C2327: 'Menu::string': is not a type name, static, or enumerator
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(47,5):
+      see declaration of 'Menu::string'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(47,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(47,41): error C2146: syntax error: missing ')' before identifier 'ui'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(47,41): error C3646: 'ui': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(47,43): error C2059: syntax error: ')'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(50,14): error C3646: 'name': unknown override specifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(50,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(56,19): error C2065: 'MenuName': undeclared identifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(56,5): error C2923: 'std::unordered_map': 'MenuName' is not a valid template type argument for parameter '_Kty'
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(56,19):
+      see declaration of 'MenuName'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(56,5): error C2976: 'std::unordered_map': too few template arguments
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(56,36): error C2955: 'std::unordered_map': use of class template requires template argument list
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(57,19): error C2065: 'UIElem': undeclared identifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(57,5): error C2923: 'std::unordered_map': 'UIElem' is not a valid template type argument for parameter '_Kty'
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(57,19):
+      see declaration of 'UIElem'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(57,5): error C2976: 'std::unordered_map': too few template arguments
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(57,32): error C2955: 'std::unordered_map': use of class template requires template argument list
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(13,30): error C3312: no callable 'begin' function found for type 'std::unordered_map'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(13,30): error C3312: no callable 'end' function found for type 'std::unordered_map'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(13,28): error C2059: syntax error: ':'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(13,40): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(14,20): error C2065: 'ui': undeclared identifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(14,13): error C2541: 'delete': cannot delete objects that are not pointers
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(15,13): error C2065: 'ui': undeclared identifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(17,18): error C2039: 'clear': is not a member of 'std::unordered_map'
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(19,30): error C3312: no callable 'begin' function found for type 'std::unordered_map'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(19,30): error C3312: no callable 'end' function found for type 'std::unordered_map'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(19,28): error C2059: syntax error: ':'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(19,41): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(20,20): error C2065: 'sm': undeclared identifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(20,13): error C2541: 'delete': cannot delete objects that are not pointers
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(21,13): error C2065: 'sm': undeclared identifier
+  (compiling source file 'src/Game/Menu.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Game\Menu.h(23,19): error C2039: 'clear': is not a member of 'std::unordered_map'
+  (compiling source file 'src/Game/Menu.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map'
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Entities\Entity.h(4,10): error C1083: Cannot open include file: '../Game/Scene.h': No such file or directory
+  (compiling source file 'src/Game/Menu.cpp')
+  
+  main.cpp
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(23,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(35,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(36,45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(47,124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Geometry.h(60,39): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Core\Camera.h(14,110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(50,56): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(64,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Sprite.h(65,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(11,37): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Font.h(15,38): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(50,55): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(75,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Griffin G. Salazar\Cpp Projects\Dragon Force\Dragon Force\src\Graphics\Text.h(76,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+  Generating Code...
