@@ -32,10 +32,12 @@ void Dragon::GetInput() {
 
 
 	//Fire projectiles
-	if (Input::KeyPressed(SPACE)) {
+	cout << fire_timer << '\n';
+	if (--fire_timer <= 0 and Input::KeyPressed(SPACE)) {
+		fire_timer = fire_timer_max;
 		if (color == "Red") proj_info.curr_frame = 0;
 
-		proj_info.pos = pos;
+		proj_info.pos = { pos.x, pos.y - 16 };
 		game->projs.push_back(new Projectile(proj_info));
 	}
 }

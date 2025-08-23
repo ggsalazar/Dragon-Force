@@ -3,9 +3,9 @@
 void Sprite::Init(const Info& i) {
     info = i;
 
-    if (info.sheet != "") {
+    SetAnimFPS(info.anim_fps);
 
-        SetAnimFPS(info.anim_fps);
+    if (info.sheet != "") {
 
         std::string sheet_png = "assets/Sprites/" + info.sheet + ".png";
         if (texture) {
@@ -48,6 +48,8 @@ void Sprite::SetSheet(std::string new_sheet) {
 
     if (!texture)
         std::cout << "Could not load texture from file: " << new_sheet << "!\n";
+
+    info.sheet = new_sheet;
 
     SDL_SetTextureScaleMode(texture, SDL_SCALEMODE_NEAREST);
 

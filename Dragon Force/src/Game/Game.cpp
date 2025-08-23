@@ -119,15 +119,20 @@ void Game::Update() {
     if (--wyvern_timer <= 0) {
         //Reset the timer
         wyvern_timer = wyvern_timer_max;
+        wyvern_timer += rand() % 60;
 
-        //Select a wyvern color - just green for now
-        wyvern_info.sheet = "Wyverns/Green Wyvern";
+        //Select a wyvern color
+        char wyvern_color = 'G';
+        switch (rand() % 3) {
+            case 1: wyvern_color = 'B'; break;
+            case 2: wyvern_color = 'P'; break;
+        }
         
-        //Randomize wyvern position - TO-DO
-        wyvern_info.pos = Round(min_res.x * .5f, -16);
+        //Randomize wyvern position
+        wyvern_info.pos = Round(max(16, (int)(rand() % min_res.x)-16), -16);
 
         //Spawn a wyvern
-        wyverns.push_back(new Wyvern(wyvern_info));
+        wyverns.push_back(new Wyvern(wyvern_info, wyvern_color));
     }
 
 
@@ -135,20 +140,37 @@ void Game::Update() {
     for (uchar i = 0; i < wyverns.size(); ++i)
         wyverns[i]->Update();
 
-    //Remove wyverns from the vector - TO-DO
-
+    //Remove wyverns from the vector
+    for (auto it = wyverns.begin(); it != wyverns.end();) {
+        Wyvern* w = *it;
+        if (w->health <= 0) it = wyverns.erase(it);
+        else ++it;
+    }
 
     //Update the projectiles 
     for (uchar i = 0; i < projs.size(); ++i) {
         projs[i]->Update();
 
-        //Collisions with wyverns/dragon - TO-DO
+        //Collisions with wyverns/dragon
+        //Not the most efficient way to do it but it works
+        for (uchar j = 0; j < wyverns.size(); ++j) {
+            if (Collision::AABB(projs[i]->GetBBox(), wyverns[j]->GetBBox())) {
+                --wyverns[j]->health;
+                projs[i]->active = false;
+                break;
+            }
+            else if (Collision::AABB(projs[i]->GetBBox(), dragon->GetBBox())) {
+                --dragon->health;
+                projs[i]->active = false;
+                break;
+            }
+        }
     }
 
     //Remove projectiles from the vector
     for (auto it = projs.begin(); it != projs.end();) {
         Projectile* p = *it;
-        if (p->GetPos().y < 0) it = projs.erase(it);
+        if (!p->active) it = projs.erase(it);
         else ++it;
     }
 }
@@ -156,7 +178,7 @@ void Game::Update() {
 //Draw the game world
 void Game::Render() {
 
-    renderer.BeginFrame(); //This also clears the frame
+    renderer.BeginFrame();
 
     dragon->Draw();
 

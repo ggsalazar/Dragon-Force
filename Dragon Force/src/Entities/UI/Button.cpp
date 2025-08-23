@@ -39,9 +39,6 @@ void Button::Released() {
         break;
 
         case UIElem::Back:
-            //If creating a character, ask to confirm and if yes, wipe party creation - TO-DO
-            menu->Open(false);
-            //gm->OpenMenu(MenuName::Main);
         break;
 
         case UIElem::No:
